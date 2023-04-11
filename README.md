@@ -55,7 +55,7 @@ In this section I added ICMP for both the ingress and egress port to enable the 
 4)	Automate spinning up and configuring a Quagga/FRR BGP router as a Docker container.
 a)	Automate its BGP configuration to peer with the SDN controller in the next objective.
 
-For this I created a Dockerfile to create image of ExaBGP and RYU controller using pyhton code. Then i used this image to create containers for the same. 
+For this I created a Dockerfile to create image of ExaBGP and RYU controller using pyhton code. Then i used this image to create containers for the same using script. 
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/98084044/231094748-cf7ceb22-e4c4-4b8e-98ce-adca2dcbe89d.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/98084044/231094831-ae6d1bbf-2a94-4b83-8763-220fe72f1983.png">
@@ -65,7 +65,7 @@ For the BGP neighborship I created bgp.conf file for the containers and was able
 5)	Automate spinning up and configuring an SDN controller as another Docker container.
 a)	Automate its BGP speaker configuration to peer with Quagga/FRR.
  
- For this I created a Dockerfile to create image of ExaBGP and RYU controller using pyhton code. Then i used this image to create containers for the same. 
+ For this I created a Dockerfile to create image of ExaBGP and RYU controller using pyhton code. Then i used this image to create containers for the same using automation. 
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/98084044/231094748-cf7ceb22-e4c4-4b8e-98ce-adca2dcbe89d.png">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/98084044/231094831-ae6d1bbf-2a94-4b83-8763-220fe72f1983.png">
